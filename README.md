@@ -14,7 +14,7 @@ npm install axios commander cli-progress
 node .\gist-downloader.js --user YOUR_GISTS_NAME   
 ```   
 
-Like this for me   
+For example, this is how it`s for me:   
 
 ```powershell   
 node .\gist-downloader.js -user yojeero   
@@ -25,3 +25,5 @@ node .\gist-downloader.js -user yojeero
 ```powershell   
 node .\gist-downloader.js -u YOUR_GISTS_NAME -t YOUR_GITHUB_TOKEN   
 ```
+
+For Github Gists I use awesome VSCode extension [GistPad](https://github.com/lostintangent/gistpad).
