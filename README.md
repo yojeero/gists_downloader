@@ -13,20 +13,26 @@ npm init -y
 npm install axios commander cli-progress   
 ```   
 
-#### Basic usage
-node gist-downloader.js -u githubusername
+#### Basic usage   
+```
+node gist-downloader.js -u githubusername   
+```
 
-#### With output directory
-node gist-downloader.js -u githubusername -o ./my-gists
+#### With output directory   
+```
+node gist-downloader.js -u githubusername -o ./my-gists   
+```
 
-#### With GitHub token
-node gist-downloader.js -u githubusername -t YOUR_TOKEN
+#### With GitHub token   
+```
+node gist-downloader.js -u githubusername -t YOUR_TOKEN   
+```
 
 
 For example, this is how it`s for me:   
 
 ```
-node gist-downloader.js -u yojeero -o ./My-gists  
+node gist-downloader.js -u yojeero -o ./My-Gists  
 ```
 
 For Github Gists I use awesome VSCode extension [GistPad](https://github.com/lostintangent/gistpad).
