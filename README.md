@@ -4,11 +4,9 @@
 
 Each gist will be downloaded into its own separate folder with the gist name. 
 
-Put gist-downloader.js in folder where you want to save all your gists.
-
-Install node.js - if it is not already installed.
-
-Open terminal and run:   
+- Put gist-downloader.js in folder where you want to save all your gists.   
+- Install node.js - if it`s not already installed.   
+- Open terminal and run:   
 
 ```powershell
 npm init -y   
